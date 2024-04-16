@@ -1,0 +1,11 @@
+.darkMode-enabled {
+  filter: invert(1) hue-rotate(-180deg);
+  img,
+  video,
+  #navFooter.navLeftFooter,
+  #nav-belt,
+  #nav-main,
+  #navSwmHoliday {
+    filter: invert(1) hue-rotate(-180deg);
+  }
+}
