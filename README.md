@@ -1,6 +1,6 @@
 <h1>Amazon Dark mode</h1>
 
-A browser-extension enabling a dark mode for [Amazon](https://www.amazon.com/)
+A browserextension enabling a dark mode for [Amazon](https://www.amazon.com/)
 
 <br>
 <h3>Find this browser extension here:</h2> 
