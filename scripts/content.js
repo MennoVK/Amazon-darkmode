@@ -1,17 +1,17 @@
 html = document.documentElement;
 
-html.classList.add("darkMode-enabled");
-
-window.browser = (function () {
-  return window.msBrowser ||
-    window.browser ||
-    window.chrome;
-})();
-
-browser.storage.local.get(["amazonDarkModeEnabled"]).then((result) => {
+const toggleDarkmode = async () => {
+  const result = await chrome.storage.local.get("amazonDarkModeEnabled")
   if (result.amazonDarkModeEnabled === undefined) {
-    browser.storage.local.set({ amazonDarkModeEnabled: true });
-  } else if (!result["amazonDarkModeEnabled"]) {
+    chrome.storage.local.set({ amazonDarkModeEnabled: true });
+    html.classList.add("darkMode-enabled");
+} 
+  if (result.amazonDarkModeEnabled){
+    html.classList.add("darkMode-enabled");
+  }
+  if (!result.amazonDarkModeEnabled) {
     html.classList.remove("darkMode-enabled");
   }
-});
+}
+
+toggleDarkmode()
