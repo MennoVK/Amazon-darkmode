@@ -2,7 +2,7 @@
 
 A browser-extension enabling a dark mode for [Amazon](https://www.amazon.com/)
 
-![popup preview](https://github.com/MennoVK/Amazone-darkmode/blob/master/screenshots/popup.png?raw=true)
+![popup preview](https://github.com/MennoVK/Amazon-darkmode/blob/master/screenshots/popup.png?raw=true)
 
 <h3>Find this browser-extension here:</h2> 
 
