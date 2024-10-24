@@ -1,0 +1,6 @@
+// "https://*.amazon.sg/*"
+// "https://*.amazon.jp/*",
+// "https://www.amazon.com.be/*"
+
+"https://*.amazon.com.sg/*", //redirect to .sg
+"https://*.amazon.at/*" // redirect to .de
